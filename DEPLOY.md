@@ -15,8 +15,8 @@
 2. No Easypanel, crie um projeto (exemplo: `fbr-training`) e um serviço do tipo **App** (exemplo: `web`).
 3. Em Source → GitHub: repositório `appbigwriter/trainning`, branch `main`, Build Path `/`. Se escolher Source → Git, use a URL completa do repositório.
 4. Em Build: builder **Dockerfile**, arquivo `Dockerfile`, na raiz. Nenhum comando npm ou build adicional é necessário.
-5. Em Domains: hostname `trainning.fbr.news`, caminho `/`, protocolo interno **HTTP**, porta interna **8080**. Preserve o caminho da URL; não aplique remoção de `/amazon`.
-6. Ative HTTPS usando o mecanismo de certificados do Easypanel, após o DNS apontar para a VPS. Se houver firewall, mantenha 80/443 disponíveis para o proxy. Não exponha 8080 diretamente na internet.
+5. Em Domains: hostname `trainning.fbr.news`, caminho `/`, protocolo interno **HTTP**, porta interna **80**. Preserve o caminho da URL; não aplique remoção de `/amazon`.
+6. Ative HTTPS usando o mecanismo de certificados do Easypanel, após o DNS apontar para a VPS. Se houver firewall, mantenha 80/443 disponíveis para o proxy. O proxy Easypanel encaminha HTTP para a porta 80 do container.
 7. Clique em Deploy e confira saída de build, logs e estado do serviço.
 8. Confira `/`, `/amazon/`, as três páginas de trilha e `/healthz`. `/amazon` deve redirecionar para `/amazon/`.
 
@@ -24,7 +24,7 @@ O domínio inteiro usa o serviço do portal. O Nginx resolve as pastas dos curso
 
 ## Recursos
 
-- Porta do container: `8080`, escuta em todas as interfaces.
+- Porta do container: `80`, escuta em todas as interfaces.
 - Health check: `GET /healthz` retorna `200` e `ok`.
 - Sem banco, variáveis secretas ou volume persistente.
 - A imagem Nginx está fixada por digest; atualizar a imagem requer rever o digest no Dockerfile e testar.
@@ -40,7 +40,7 @@ Para rollback, publique um commit revertendo a alteração e faça um novo Deplo
 
 ```sh
 docker build -t fbr-training .
-docker run --rm -p 8080:8080 fbr-training
+docker run --rm -p 8080:80 fbr-training
 ```
 
 Abra `http://localhost:8080/amazon/`. A URL final só estará disponível após configuração DNS, serviço e deploy na VPS.

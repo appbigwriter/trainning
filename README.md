@@ -8,7 +8,7 @@ Portal de cursos estáticos para `trainning.fbr.news`.
 
 ## Deploy
 
-Use o **Dockerfile na raiz**, com Build Path `/` e porta interna **8080** no Easypanel. Consulte [DEPLOY.md](DEPLOY.md) para DNS, domínio, HTTPS e atualização.
+Use o **Dockerfile na raiz**, com Build Path `/` e porta interna **80** no Easypanel. Consulte [DEPLOY.md](DEPLOY.md) para DNS, domínio, HTTPS e atualização.
 
 ## Desenvolvimento local
 
