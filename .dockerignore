@@ -1,0 +1,16 @@
+**
+!Dockerfile
+!index.html
+!assets
+!assets/**
+!nginx
+!nginx/**
+!amazon
+!amazon/**
+amazon/*.md
+amazon/*.zip
+amazon/*preview*.png
+amazon/learning-records
+amazon/learning-records/**
+**/__pycache__
+**/.env*

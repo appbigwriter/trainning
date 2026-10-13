@@ -1,0 +1,32 @@
+name: Verify site
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check internal links
+        run: python3 scripts/check_site.py
+      - name: Build and test Nginx container
+        shell: bash
+        run: |
+          set -euo pipefail
+          docker build -t fbr-training:test .
+          docker run -d --name training-test -p 18080:8080 fbr-training:test
+          trap 'docker logs training-test; docker rm -f training-test' EXIT
+          for attempt in $(seq 1 15); do
+            if curl -fsS http://127.0.0.1:18080/healthz; then break; fi
+            sleep 1
+          done
+          for path in / /amazon/ /amazon/associates.html /amazon/custom.html /amazon/ads.html /amazon/lessons/0001-mapa-da-primeira-venda.html /amazon/reference/simulador-ads.html /amazon/assets/course.js; do
+            curl -fsS "http://127.0.0.1:18080$path" >/dev/null
+          done
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon)" = 301
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon/NOTES.md)" = 404
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/.git/config)" = 404
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/inexistente)" = 404

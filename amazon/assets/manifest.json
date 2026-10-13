@@ -1,0 +1,182 @@
+[
+  {
+    "number": 1,
+    "title": "O caminho da primeira venda",
+    "file": "0001-mapa-da-primeira-venda.html",
+    "module": 1
+  },
+  {
+    "number": 2,
+    "title": "Escolha um produto para testar",
+    "file": "0002-escolha-do-produto.html",
+    "module": 1
+  },
+  {
+    "number": 3,
+    "title": "Fornecedor e autorização para vender",
+    "file": "0003-fornecedor-e-aprovacao.html",
+    "module": 1
+  },
+  {
+    "number": 4,
+    "title": "Prepare seu cadastro",
+    "file": "0004-cadastro-e-documentos.html",
+    "module": 2
+  },
+  {
+    "number": 5,
+    "title": "Escolha o plano e leia as tarifas",
+    "file": "0005-planos-e-taxas.html",
+    "module": 2
+  },
+  {
+    "number": 6,
+    "title": "Prepare a operação fiscal local",
+    "file": "0006-preparacao-fiscal.html",
+    "module": 2
+  },
+  {
+    "number": 7,
+    "title": "Calcule quanto sobra por venda",
+    "file": "0007-margem-por-unidade.html",
+    "module": 3
+  },
+  {
+    "number": 8,
+    "title": "Dimensione o lote e o caixa",
+    "file": "0008-caixa-e-lote-piloto.html",
+    "module": 3
+  },
+  {
+    "number": 9,
+    "title": "Escolha a logística inicial",
+    "file": "0009-comparacao-logistica.html",
+    "module": 3
+  },
+  {
+    "number": 10,
+    "title": "Entenda ASIN, SKU e GTIN",
+    "file": "0010-asin-sku-gtin.html",
+    "module": 4
+  },
+  {
+    "number": 11,
+    "title": "Prepare sua primeira oferta",
+    "file": "0011-primeira-oferta.html",
+    "module": 4
+  },
+  {
+    "number": 12,
+    "title": "Escreva uma página que responde dúvidas",
+    "file": "0012-pagina-clara.html",
+    "module": 4
+  },
+  {
+    "number": 13,
+    "title": "Do pedido ao despacho",
+    "file": "0013-pedido-e-despacho.html",
+    "module": 5
+  },
+  {
+    "number": 14,
+    "title": "Atendimento, devoluções e avaliações",
+    "file": "0014-atendimento-e-devolucao.html",
+    "module": 5
+  },
+  {
+    "number": 15,
+    "title": "Cuide da conta e do estoque",
+    "file": "0015-saude-e-estoque.html",
+    "module": 5
+  },
+  {
+    "number": 16,
+    "title": "Prepare um teste de tráfego",
+    "file": "0016-trafego-e-anuncios.html",
+    "module": 6
+  },
+  {
+    "number": 17,
+    "title": "Leia resultados sem se enganar",
+    "file": "0017-diagnostico-e-resultados.html",
+    "module": 6
+  },
+  {
+    "number": 18,
+    "title": "Seu plano para as primeiras vendas",
+    "file": "0018-projeto-final.html",
+    "module": 6
+  },
+  {
+    "number": 19,
+    "title": "Associates: entenda a receita de afiliado",
+    "file": "0019-associates-modelo.html",
+    "module": 7
+  },
+  {
+    "number": 20,
+    "title": "Prepare o canal e a candidatura",
+    "file": "0020-associates-cadastro.html",
+    "module": 7
+  },
+  {
+    "number": 21,
+    "title": "Links, transparência e conteúdo útil",
+    "file": "0021-associates-links-conteudo.html",
+    "module": 7
+  },
+  {
+    "number": 22,
+    "title": "Meça comissões e revise o conteúdo",
+    "file": "0022-associates-medicao.html",
+    "module": 7
+  },
+  {
+    "number": 23,
+    "title": "Custom: personalize com uma operação viável",
+    "file": "0023-custom-requisitos.html",
+    "module": 8
+  },
+  {
+    "number": 24,
+    "title": "Desenhe a personalização",
+    "file": "0024-custom-configuracao.html",
+    "module": 8
+  },
+  {
+    "number": 25,
+    "title": "Produção, custo e capacidade",
+    "file": "0025-custom-producao-custos.html",
+    "module": 8
+  },
+  {
+    "number": 26,
+    "title": "Revise o piloto e o pós-venda Custom",
+    "file": "0026-custom-piloto-qualidade.html",
+    "module": 8
+  },
+  {
+    "number": 27,
+    "title": "Ads: objetivo, formato e elegibilidade",
+    "file": "0027-ads-objetivos-formatos.html",
+    "module": 9
+  },
+  {
+    "number": 28,
+    "title": "Prepare uma campanha automática",
+    "file": "0028-ads-campanha-automatica.html",
+    "module": 9
+  },
+  {
+    "number": 29,
+    "title": "Use termos, correspondências e negativas",
+    "file": "0029-ads-manual-negativas.html",
+    "module": 9
+  },
+  {
+    "number": 30,
+    "title": "Otimize com margem e feche o projeto",
+    "file": "0030-ads-otimizacao-projeto.html",
+    "module": 9
+  }
+]
