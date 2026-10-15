@@ -1,4 +1,4 @@
-# Publish only the course portal and reviewed Amazon assets.
+# Publish the course portal and public course assets.
 *
 !.gitignore
 !.dockerignore
@@ -20,5 +20,11 @@ amazon/*.md
 amazon/*.zip
 amazon/*preview*.png
 amazon/learning-records/
+!redes-sociais/
+!redes-sociais/**
+redes-sociais/*.md
+redes-sociais/*.zip
+redes-sociais/*preview*.png
+redes-sociais/learning-records/
 **/__pycache__/
 **/.env*

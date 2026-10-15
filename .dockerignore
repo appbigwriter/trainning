@@ -12,5 +12,12 @@ amazon/*.zip
 amazon/*preview*.png
 amazon/learning-records
 amazon/learning-records/**
+!redes-sociais
+!redes-sociais/**
+redes-sociais/*.md
+redes-sociais/*.zip
+redes-sociais/*preview*.png
+redes-sociais/learning-records
+redes-sociais/learning-records/**
 **/__pycache__
 **/.env*

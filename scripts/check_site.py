@@ -16,11 +16,13 @@ class Check(HTMLParser):
             assert target.resolve().is_relative_to(ROOT), f"Link leaves site: {value}"
 
 parser = Check()
-files = [ROOT / "index.html"] + list((ROOT / "amazon").rglob("*.html"))
+files = [ROOT / "index.html"] + list((ROOT / "amazon").rglob("*.html")) + list((ROOT / "redes-sociais").rglob("*.html"))
 for file in files:
     parser.file = file
     parser.feed(file.read_text(encoding="utf-8"))
 assert len(list((ROOT / "amazon/lessons").glob("*.html"))) == 30
 for page in ("index.html", "associates.html", "custom.html", "ads.html"):
     assert (ROOT / "amazon" / page).exists()
+assert len(list((ROOT / "redes-sociais/lessons").glob("*.html"))) == 18
+assert len(list((ROOT / "redes-sociais/reference").glob("*.html"))) == 8
 print(f"Verified {len(files)} HTML pages and internal resources.")

@@ -5,6 +5,7 @@ Portal de cursos estáticos para `trainning.fbr.news`.
 - `/`: catálogo dos cursos.
 - `/amazon/`: curso Amazon — EUA e Canadá, 30 aulas e quatro trilhas.
 - `/amazon/associates.html`, `/amazon/custom.html`, `/amazon/ads.html`: trilhas específicas.
+- `/redes-sociais/`: Como crescer suas redes sociais — 18 aulas, 6 módulos e 8 materiais de apoio, em tons de azul.
 
 ## Deploy
 
@@ -17,6 +18,9 @@ python -m http.server 8767 --bind 127.0.0.1
 ```
 
 Abra `http://127.0.0.1:8767/` e `http://127.0.0.1:8767/amazon/`.
+O novo curso está em `http://127.0.0.1:8767/redes-sociais/`.
+
+O conteúdo das páginas de redes sociais é gerado por `python scripts/build_social_course.py`; CSS e JavaScript ficam em `redes-sociais/assets/`. A geração preserva esses recursos. Notas pedagógicas locais seguem a skill `teach` do Matt Pocock; registros de aprendizado só devem ser criados após demonstração do estudante.
 
 ```sh
 python scripts/check_site.py

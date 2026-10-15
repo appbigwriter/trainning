@@ -1,0 +1,110 @@
+[
+  {
+    "number": 1,
+    "title": "Defina o crescimento que importa",
+    "file": "0001-crescimento.html",
+    "module": 1
+  },
+  {
+    "number": 2,
+    "title": "Equilibre qualidade e volume",
+    "file": "0002-qualidade-volume.html",
+    "module": 1
+  },
+  {
+    "number": 3,
+    "title": "Transforme problemas em pautas",
+    "file": "0003-pautas.html",
+    "module": 1
+  },
+  {
+    "number": 4,
+    "title": "Questione cada exigência",
+    "file": "0004-questionar.html",
+    "module": 2
+  },
+  {
+    "number": 5,
+    "title": "Elimine o que não agrega",
+    "file": "0005-eliminar.html",
+    "module": 2
+  },
+  {
+    "number": 6,
+    "title": "Simplifique com custo de oportunidade",
+    "file": "0006-simplificar.html",
+    "module": 2
+  },
+  {
+    "number": 7,
+    "title": "Acelere o fluxo com responsáveis",
+    "file": "0007-acelerar.html",
+    "module": 3
+  },
+  {
+    "number": 8,
+    "title": "Produza em blocos viáveis",
+    "file": "0008-blocos.html",
+    "module": 3
+  },
+  {
+    "number": 9,
+    "title": "Automatize depois de validar",
+    "file": "0009-automatizar.html",
+    "module": 3
+  },
+  {
+    "number": 10,
+    "title": "Mostre como você resolve",
+    "file": "0010-demonstrar.html",
+    "module": 4
+  },
+  {
+    "number": 11,
+    "title": "Delimite sua autoridade",
+    "file": "0011-autoridade.html",
+    "module": 4
+  },
+  {
+    "number": 12,
+    "title": "Dê instruções fáceis de testar",
+    "file": "0012-clareza.html",
+    "module": 4
+  },
+  {
+    "number": 13,
+    "title": "Monte uma peça educativa",
+    "file": "0013-roteiro.html",
+    "module": 5
+  },
+  {
+    "number": 14,
+    "title": "Varie contextos, preserve a ideia",
+    "file": "0014-contextos.html",
+    "module": 5
+  },
+  {
+    "number": 15,
+    "title": "Conecte conteúdo e conversa",
+    "file": "0015-conversao.html",
+    "module": 5
+  },
+  {
+    "number": 16,
+    "title": "Meça sem confundir sinais",
+    "file": "0016-metricas.html",
+    "module": 6
+  },
+  {
+    "number": 17,
+    "title": "Conduza um experimento por vez",
+    "file": "0017-experimentos.html",
+    "module": 6
+  },
+  {
+    "number": 18,
+    "title": "Seu plano de crescimento em 30 dias",
+    "file": "0018-projeto-final.html",
+    "module": 6
+  }
+]

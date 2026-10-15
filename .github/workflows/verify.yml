@@ -23,10 +23,12 @@ jobs:
             if curl -fsS http://127.0.0.1:18080/healthz; then break; fi
             sleep 1
           done
-          for path in / /amazon/ /amazon/associates.html /amazon/custom.html /amazon/ads.html /amazon/lessons/0001-mapa-da-primeira-venda.html /amazon/reference/simulador-ads.html /amazon/assets/course.js; do
+          for path in / /amazon/ /amazon/associates.html /amazon/custom.html /amazon/ads.html /amazon/lessons/0001-mapa-da-primeira-venda.html /amazon/reference/simulador-ads.html /amazon/assets/course.js /redes-sociais/ /redes-sociais/lessons/0001-crescimento.html /redes-sociais/reference/calculadora.html /redes-sociais/assets/course.js; do
             curl -fsS "http://127.0.0.1:18080$path" >/dev/null
           done
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon)" = 301
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/redes-sociais)" = 301
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/redes-sociais/NOTES.md)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon/NOTES.md)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/.git/config)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/inexistente)" = 404
