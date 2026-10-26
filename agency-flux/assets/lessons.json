@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "title": "Entenda o fluxo atual",
+    "file": "0001.html",
+    "module": "Briefing e escopo"
+  },
+  {
+    "number": 2,
+    "title": "Escreva um brief enxuto",
+    "file": "0002.html",
+    "module": "Briefing e escopo"
+  },
+  {
+    "number": 3,
+    "title": "Defina aceite e limites",
+    "file": "0003.html",
+    "module": "Briefing e escopo"
+  },
+  {
+    "number": 4,
+    "title": "Monte o backlog acionável",
+    "file": "0004.html",
+    "module": "Execução por artefatos"
+  },
+  {
+    "number": 5,
+    "title": "Organize a pasta do projeto",
+    "file": "0005.html",
+    "module": "Execução por artefatos"
+  },
+  {
+    "number": 6,
+    "title": "Acione skills pelo trabalho necessário",
+    "file": "0006.html",
+    "module": "Execução por artefatos"
+  },
+  {
+    "number": 7,
+    "title": "Transforme pesquisa em decisão",
+    "file": "0007.html",
+    "module": "Construção e validação"
+  },
+  {
+    "number": 8,
+    "title": "Conecte conteúdo, identidade e construção",
+    "file": "0008.html",
+    "module": "Construção e validação"
+  },
+  {
+    "number": 9,
+    "title": "Valide no preview local",
+    "file": "0009.html",
+    "module": "Construção e validação"
+  },
+  {
+    "number": 10,
+    "title": "Prepare o gate crítico com entrega concreta",
+    "file": "0010.html",
+    "module": "Entrega e continuidade"
+  },
+  {
+    "number": 11,
+    "title": "Entregue com limites de verificação",
+    "file": "0011.html",
+    "module": "Entrega e continuidade"
+  },
+  {
+    "number": 12,
+    "title": "Mantenha continuidade por arquivos",
+    "file": "0012.html",
+    "module": "Entrega e continuidade"
+  }
+]

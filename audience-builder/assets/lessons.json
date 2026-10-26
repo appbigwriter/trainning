@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "title": "Defina o Audience Project",
+    "file": "0001.html",
+    "module": "Projeto e identidade"
+  },
+  {
+    "number": 2,
+    "title": "Herde uma persona versionada",
+    "file": "0002.html",
+    "module": "Projeto e identidade"
+  },
+  {
+    "number": 3,
+    "title": "Organize manifesto e limites do projeto",
+    "file": "0003.html",
+    "module": "Projeto e identidade"
+  },
+  {
+    "number": 4,
+    "title": "Valide o Gestor Editorial primeiro",
+    "file": "0004.html",
+    "module": "Blog e operação editorial"
+  },
+  {
+    "number": 5,
+    "title": "Planeje provisionamento e handoffs",
+    "file": "0005.html",
+    "module": "Blog e operação editorial"
+  },
+  {
+    "number": 6,
+    "title": "Defina visual e arquitetura editorial",
+    "file": "0006.html",
+    "module": "Blog e operação editorial"
+  },
+  {
+    "number": 7,
+    "title": "Monte o pipeline de conteúdo",
+    "file": "0007.html",
+    "module": "Conteúdo e distribuição"
+  },
+  {
+    "number": 8,
+    "title": "Revise fontes, imagens e SEO",
+    "file": "0008.html",
+    "module": "Conteúdo e distribuição"
+  },
+  {
+    "number": 9,
+    "title": "Adapte para canais com contexto",
+    "file": "0009.html",
+    "module": "Conteúdo e distribuição"
+  },
+  {
+    "number": 10,
+    "title": "Planeje monetização sem ativação implícita",
+    "file": "0010.html",
+    "module": "Medição e integração"
+  },
+  {
+    "number": 11,
+    "title": "Acompanhe integração e métricas",
+    "file": "0011.html",
+    "module": "Medição e integração"
+  },
+  {
+    "number": 12,
+    "title": "Entregue o projeto editorial revisável",
+    "file": "0012.html",
+    "module": "Medição e integração"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "title": "Entenda o papel do DIM",
+    "file": "0001.html",
+    "module": "Identidade e contexto"
+  },
+  {
+    "number": 2,
+    "title": "Escolha identidade, equipe e escopo",
+    "file": "0002.html",
+    "module": "Identidade e contexto"
+  },
+  {
+    "number": 3,
+    "title": "Verifique direitos e consentimentos",
+    "file": "0003.html",
+    "module": "Identidade e contexto"
+  },
+  {
+    "number": 4,
+    "title": "Separe cadastro de canal conectado",
+    "file": "0004.html",
+    "module": "Canais e produção"
+  },
+  {
+    "number": 5,
+    "title": "Prepare briefing e fontes no Studio",
+    "file": "0005.html",
+    "module": "Canais e produção"
+  },
+  {
+    "number": 6,
+    "title": "Trabalhe com versões e evidência factual",
+    "file": "0006.html",
+    "module": "Canais e produção"
+  },
+  {
+    "number": 7,
+    "title": "Aprove a versão exata",
+    "file": "0007.html",
+    "module": "Revisão e execução"
+  },
+  {
+    "number": 8,
+    "title": "Planeje calendário e execução",
+    "file": "0008.html",
+    "module": "Revisão e execução"
+  },
+  {
+    "number": 9,
+    "title": "Recupere falhas sem duplicar ações",
+    "file": "0009.html",
+    "module": "Revisão e execução"
+  },
+  {
+    "number": 10,
+    "title": "Organize Inbox e CRM",
+    "file": "0010.html",
+    "module": "Relacionamento e resultados"
+  },
+  {
+    "number": 11,
+    "title": "Leia métricas e custos com origem",
+    "file": "0011.html",
+    "module": "Relacionamento e resultados"
+  },
+  {
+    "number": 12,
+    "title": "Conclua o plano operacional",
+    "file": "0012.html",
+    "module": "Relacionamento e resultados"
+  }
+]

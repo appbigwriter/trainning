@@ -1,0 +1,110 @@
+[
+  {
+    "number": 1,
+    "title": "Do clipe curto ao filme completo",
+    "file": "0001-do-clipe-ao-filme.html",
+    "module": 1
+  },
+  {
+    "number": 2,
+    "title": "Prepare projeto, recursos e orçamento",
+    "file": "0002-projeto-e-orcamento.html",
+    "module": 1
+  },
+  {
+    "number": 3,
+    "title": "Escreva um roteiro que cabe no tempo",
+    "file": "0003-roteiro-e-tempo.html",
+    "module": 1
+  },
+  {
+    "number": 4,
+    "title": "Descreva um plano por prompt",
+    "file": "0004-prompt-de-plano.html",
+    "module": 2
+  },
+  {
+    "number": 5,
+    "title": "Gere e selecione sua primeira tomada",
+    "file": "0005-primeira-tomada.html",
+    "module": 2
+  },
+  {
+    "number": 6,
+    "title": "Escolha entre texto, elementos e frames",
+    "file": "0006-referencias-e-frames.html",
+    "module": 2
+  },
+  {
+    "number": 7,
+    "title": "Monte uma ficha de continuidade",
+    "file": "0007-ficha-de-continuidade.html",
+    "module": 3
+  },
+  {
+    "number": 8,
+    "title": "Estenda uma ação quando necessário",
+    "file": "0008-estender-uma-acao.html",
+    "module": 3
+  },
+  {
+    "number": 9,
+    "title": "Una tomadas sem perder a orientação",
+    "file": "0009-montagem-e-transicoes.html",
+    "module": 3
+  },
+  {
+    "number": 10,
+    "title": "Planeje os 60 segundos do piloto",
+    "file": "0010-projeto-1-minuto.html",
+    "module": 4
+  },
+  {
+    "number": 11,
+    "title": "Faça a narração sustentar a história",
+    "file": "0011-audio-e-narracao.html",
+    "module": 4
+  },
+  {
+    "number": 12,
+    "title": "Entregue sua primeira versão de 1 minuto",
+    "file": "0012-entrega-1-minuto.html",
+    "module": 4
+  },
+  {
+    "number": 13,
+    "title": "Desenvolva uma história de 3 minutos",
+    "file": "0013-projeto-3-minutos.html",
+    "module": 5
+  },
+  {
+    "number": 14,
+    "title": "Produza por cenas e controle versões",
+    "file": "0014-producao-por-cenas.html",
+    "module": 5
+  },
+  {
+    "number": 15,
+    "title": "Revise ritmo e entregue 3 minutos",
+    "file": "0015-ritmo-e-entrega-3.html",
+    "module": 5
+  },
+  {
+    "number": 16,
+    "title": "Estruture cinco minutos por capítulos",
+    "file": "0016-projeto-5-minutos.html",
+    "module": 6
+  },
+  {
+    "number": 17,
+    "title": "Corrija falhas sem refazer o filme",
+    "file": "0017-diagnostico-e-correcao.html",
+    "module": 6
+  },
+  {
+    "number": 18,
+    "title": "Exporte e apresente seus três projetos",
+    "file": "0018-projeto-final.html",
+    "module": 6
+  }
+]

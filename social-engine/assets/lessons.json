@@ -1,0 +1,74 @@
+[
+  {
+    "number": 1,
+    "title": "Selecione o espaço do influenciador",
+    "file": "0001.html",
+    "module": "Espaço e fontes"
+  },
+  {
+    "number": 2,
+    "title": "Configure marca, voz e vínculo de blog",
+    "file": "0002.html",
+    "module": "Espaço e fontes"
+  },
+  {
+    "number": 3,
+    "title": "Cadastre fontes com material disponível",
+    "file": "0003.html",
+    "module": "Espaço e fontes"
+  },
+  {
+    "number": 4,
+    "title": "Configure o Motor de Trends",
+    "file": "0004.html",
+    "module": "Trends e criação"
+  },
+  {
+    "number": 5,
+    "title": "Leia relevância, sinal e confiança",
+    "file": "0005.html",
+    "module": "Trends e criação"
+  },
+  {
+    "number": 6,
+    "title": "Gere uma peça com conteúdo próprio",
+    "file": "0006.html",
+    "module": "Trends e criação"
+  },
+  {
+    "number": 7,
+    "title": "Edite slides e preserve versões",
+    "file": "0007.html",
+    "module": "Revisão e distribuição"
+  },
+  {
+    "number": 8,
+    "title": "Revise e aprove o conteúdo exato",
+    "file": "0008.html",
+    "module": "Revisão e distribuição"
+  },
+  {
+    "number": 9,
+    "title": "Planeje destinos, horários e confirmações",
+    "file": "0009.html",
+    "module": "Revisão e distribuição"
+  },
+  {
+    "number": 10,
+    "title": "Trate falhas por destino",
+    "file": "0010.html",
+    "module": "Resultados e piloto"
+  },
+  {
+    "number": 11,
+    "title": "Analise coletas sem somar acumulados",
+    "file": "0011.html",
+    "module": "Resultados e piloto"
+  },
+  {
+    "number": 12,
+    "title": "Monte um piloto verificável",
+    "file": "0012.html",
+    "module": "Resultados e piloto"
+  }
+]

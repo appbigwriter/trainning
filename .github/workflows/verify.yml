@@ -23,12 +23,14 @@ jobs:
             if curl -fsS http://127.0.0.1:18080/healthz; then break; fi
             sleep 1
           done
-          for path in / /amazon/ /amazon/associates.html /amazon/custom.html /amazon/ads.html /amazon/lessons/0001-mapa-da-primeira-venda.html /amazon/reference/simulador-ads.html /amazon/assets/course.js /redes-sociais/ /redes-sociais/lessons/0001-crescimento.html /redes-sociais/reference/calculadora.html /redes-sociais/assets/course.js; do
+          for path in /dim/ /dim/lessons/0001.html /dim/reference/caderno.html /dim/assets/theme.css /authority-engine/ /authority-engine/lessons/0001.html /authority-engine/reference/caderno.html /authority-engine/assets/theme.css /audience-builder/ /audience-builder/lessons/0001.html /audience-builder/reference/caderno.html /audience-builder/assets/theme.css /agency-flux/ /agency-flux/lessons/0001.html /agency-flux/reference/caderno.html /agency-flux/assets/theme.css /social-engine/ /social-engine/lessons/0001.html /social-engine/reference/caderno.html /social-engine/assets/theme.css /assets/project-course.js /assets/project-course.css / /amazon/ /amazon/associates.html /amazon/custom.html /amazon/ads.html /amazon/lessons/0001-mapa-da-primeira-venda.html /amazon/reference/simulador-ads.html /amazon/assets/course.js /redes-sociais/ /redes-sociais/lessons/0001-crescimento.html /redes-sociais/reference/calculadora.html /redes-sociais/assets/course.js /google-flow/ /google-flow/lessons/0001-do-clipe-ao-filme.html /google-flow/reference/calculadora.html /google-flow/assets/course.js; do
             curl -fsS "http://127.0.0.1:18080$path" >/dev/null
           done
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon)" = 301
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/redes-sociais)" = 301
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/redes-sociais/NOTES.md)" = 404
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/google-flow)" = 301
+          test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/google-flow/NOTES.md)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/amazon/NOTES.md)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/.git/config)" = 404
           test "$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:18080/inexistente)" = 404

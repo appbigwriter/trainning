@@ -4,5 +4,11 @@ COPY index.html /usr/share/nginx/html/index.html
 COPY assets/ /usr/share/nginx/html/assets/
 COPY amazon/ /usr/share/nginx/html/amazon/
 COPY redes-sociais/ /usr/share/nginx/html/redes-sociais/
+COPY google-flow/ /usr/share/nginx/html/google-flow/
+COPY dim/ /usr/share/nginx/html/dim/
+COPY authority-engine/ /usr/share/nginx/html/authority-engine/
+COPY audience-builder/ /usr/share/nginx/html/audience-builder/
+COPY agency-flux/ /usr/share/nginx/html/agency-flux/
+COPY social-engine/ /usr/share/nginx/html/social-engine/
 EXPOSE 80
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 CMD wget -q -O /dev/null http://127.0.0.1:80/healthz || exit 1
