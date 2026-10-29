@@ -1,0 +1,110 @@
+[
+  {
+    "number": 1,
+    "title": "Entenda o escritório e seus limites",
+    "file": "0001.html",
+    "module": "Fundamentos e preparação"
+  },
+  {
+    "number": 2,
+    "title": "Reconheça estados e pratique na demonstração",
+    "file": "0002.html",
+    "module": "Fundamentos e preparação"
+  },
+  {
+    "number": 3,
+    "title": "Prepare ambiente e plano de instalação",
+    "file": "0003.html",
+    "module": "Fundamentos e preparação"
+  },
+  {
+    "number": 4,
+    "title": "Instale e valide o acesso local",
+    "file": "0004.html",
+    "module": "Instalação e integrações"
+  },
+  {
+    "number": 5,
+    "title": "Conecte o Claude Code e confira o mod",
+    "file": "0005.html",
+    "module": "Instalação e integrações"
+  },
+  {
+    "number": 6,
+    "title": "Conecte o Codex e valide os hooks",
+    "file": "0006.html",
+    "module": "Instalação e integrações"
+  },
+  {
+    "number": 7,
+    "title": "Adicione mais agentes com tarefas claras",
+    "file": "0007.html",
+    "module": "Agentes e organização"
+  },
+  {
+    "number": 8,
+    "title": "Organize projetos, sessões e subagentes",
+    "file": "0008.html",
+    "module": "Agentes e organização"
+  },
+  {
+    "number": 9,
+    "title": "Encerre sessões sem confundir com exclusão",
+    "file": "0009.html",
+    "module": "Agentes e organização"
+  },
+  {
+    "number": 10,
+    "title": "Trate pedidos de permissão com contexto",
+    "file": "0010.html",
+    "module": "Operação e acompanhamento"
+  },
+  {
+    "number": 11,
+    "title": "Use mensagens, terminal e histórico",
+    "file": "0011.html",
+    "module": "Operação e acompanhamento"
+  },
+  {
+    "number": 12,
+    "title": "Acompanhe uso, espera e entregas",
+    "file": "0012.html",
+    "module": "Operação e acompanhamento"
+  },
+  {
+    "number": 13,
+    "title": "Defina privacidade, rede e uso do World",
+    "file": "0013.html",
+    "module": "Privacidade e manutenção"
+  },
+  {
+    "number": 14,
+    "title": "Personalize e mantenha o ambiente",
+    "file": "0014.html",
+    "module": "Privacidade e manutenção"
+  },
+  {
+    "number": 15,
+    "title": "Diagnostique servidor, detecção e integração",
+    "file": "0015.html",
+    "module": "Privacidade e manutenção"
+  },
+  {
+    "number": 16,
+    "title": "Resolva falhas com um roteiro de recuperação",
+    "file": "0016.html",
+    "module": "Diagnóstico e projeto final"
+  },
+  {
+    "number": 17,
+    "title": "Monte sua rotina com vários agentes",
+    "file": "0017.html",
+    "module": "Diagnóstico e projeto final"
+  },
+  {
+    "number": 18,
+    "title": "Conclua e demonstre seu escritório",
+    "file": "0018.html",
+    "module": "Diagnóstico e projeto final"
+  }
+]

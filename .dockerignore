@@ -55,3 +55,11 @@ agency-flux/*preview*.png
 social-engine/*.md
 social-engine/*.zip
 social-engine/*preview*.png
+!habblaud/
+!habblaud/**
+habblaud/*.md
+habblaud/*.zip
+habblaud/*preview*.png
+!lasergrbl/
+!lasergrbl/**
+lasergrbl/*preview*.png

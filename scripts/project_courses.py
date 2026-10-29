@@ -4,6 +4,8 @@ Cada aula contém título, explicação, exemplo fictício, prática, pergunta,
 resposta correta, dois distratores e justificativa. Não publica dados privados.
 """
 
+from habblaud_course import HABBLAUD
+
 COURSES = [
  dict(slug='dim', name='DIM — Digital Influencer Management', color='#6d28a8', tint='#f6f0fc',
       summary='Gerencie identidades, canais, conteúdo aprovado, conversas e resultados com rastreabilidade.',
@@ -410,3 +412,8 @@ COURSES = [
  'O sandbox confirma publicação real em uma conta social?', 'Não; confirma o comportamento local de teste', 'Sim; os dados de teste equivalem à conta real', 'Sim; exportar a imagem já é publicar',
  'A prontidão externa depende de conta, permissão e evidência do provedor real.')])
 ]
+
+COURSES.append(HABBLAUD)
+
+from lasergrbl_course import LASERGRBL
+COURSES.append(LASERGRBL)

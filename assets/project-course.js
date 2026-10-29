@@ -3,6 +3,7 @@
   'use strict';
   const course = document.body.dataset.course;
   const namespace = `fbr-training:${course}:v1`;
+  const total = Number(document.body.dataset.total) || 12;
   const status = document.querySelector('.save-status');
   let state = {};
   let storageWarning = '';
@@ -22,7 +23,7 @@
   function progress() {
     let count = 0;
     let first = null;
-    for (let i = 1; i <= 12; i++) {
+    for (let i = 1; i <= total; i++) {
       const n = String(i).padStart(2, '0');
       const done = state[`done-${n}`] === true;
       if (done) count++;
@@ -31,9 +32,9 @@
       if (mark) { mark.textContent = done ? '✓' : '○'; mark.setAttribute('aria-label', done ? 'Concluída' : 'Não concluída'); }
     }
     const text = document.getElementById('progress-text');
-    if (text) text.textContent = `${count} de 12 aulas concluídas`;
+    if (text) text.textContent = `${count} de ${total} aulas concluídas`;
     const bar = document.getElementById('course-progress');
-    if (bar) { bar.value = count; bar.textContent = `${count} de 12`; }
+    if (bar) { bar.value = count; bar.textContent = `${count} de ${total}`; }
     const resume = document.getElementById('resume');
     if (resume) {
       resume.href = first ? `lessons/${String(first).padStart(4, '0')}.html` : 'reference/avaliacao.html';
@@ -70,7 +71,7 @@
   });
   document.getElementById('print')?.addEventListener('click', () => window.print());
   document.getElementById('export')?.addEventListener('click', () => {
-    const payload = { course, edition: '2026-10-26', exportedAt: new Date().toISOString(), responses: state };
+    const payload = { course, edition: document.body.dataset.edition || '2026-10-26', exportedAt: new Date().toISOString(), responses: state };
     const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement('a');

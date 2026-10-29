@@ -33,10 +33,12 @@ assert len(list((ROOT / "google-flow/reference").glob("*.html"))) == 8
 colors = set()
 for course in COURSES:
     folder = ROOT / course['slug']
-    assert len(list((folder / 'lessons').glob('*.html'))) == 12
+    expected = len(course['lessons'])
+    assert expected == len(course['modules']) * 3
+    assert len(list((folder / 'lessons').glob('*.html'))) == expected
     assert len(list((folder / 'reference').glob('*.html'))) == 5
     lessons = json.loads((folder / 'assets/lessons.json').read_text(encoding='utf-8'))
-    assert len(lessons) == 12
+    assert len(lessons) == expected
     assert course['color'] not in colors | {'#0d6357', '#1758ad', '#b84408'}
     colors.add(course['color'])
     titles = set()

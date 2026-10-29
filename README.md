@@ -37,7 +37,15 @@ python scripts/check_site.py
 
 Não é necessário criar um novo domínio ou serviço para cada curso; cada pasta ganha uma URL própria.
 
-## Dados de estudo
+## Curso Habblaud
+
+- `/habblaud/`: **Habblaud — Seu escritório de agentes**, identidade ciano escura `#0e6478`, distinta das demais paletas.
+- 18 aulas em 6 módulos, práticas, roteiros de instalação, perguntas de revisão, avaliação de 6 questões, checklist, glossário, fontes oficiais e caderno exportável.
+- Conteúdo editável em `scripts/habblaud_course.py`, gerado com `python scripts/build_project_courses.py`. Documentação consultada em 28/10/2026; recursos e comandos dependem da versão e plataforma.
+- Cobre Claude Code e Codex, novas sessões, subagentes, encerramento, permissões, mensagens, uso, privacidade, World, manutenção e diagnóstico. O portal não instala Habblaud nem controla agentes; as práticas são executadas no ambiente do estudante.
+- Teste funcional: com Playwright disponível, execute `node scripts/check_habblaud.cjs` contra o site em `http://127.0.0.1:18767` (ou defina `TRAINING_URL`). O teste usa armazenamento temporário próprio e verifica aulas, persistência, avaliação, exportação, responsividade e isolamento entre cursos.
+
+## Armazenamento das respostas
 
 Respostas e progresso são armazenados no navegador. Não há banco, login nem sincronização automática. O domínio de produção usa outro armazenamento em relação ao localhost; exporte respostas pelo caderno para guardar uma cópia.
 
@@ -54,3 +62,12 @@ Foram adicionados os cinco projetos listados na solicitação (26/10/2026). Cada
 - `/social-engine/`: **Social Engine**, cor `#a21c83`. Vá da fonte ao carrossel editável, revisão, calendário e análise por influenciador.
 
 Gere as páginas com `python scripts/build_project_courses.py`. O conteúdo editável está em `scripts/project_courses.py`; CSS e JavaScript compartilhados estão em `assets/project-course.*`, com tema próprio em cada pasta. A geração não altera o catálogo. Os exemplos são fictícios; documentos internos, credenciais e dados operacionais não são publicados. Consulte Fontes e limites em cada curso.
+
+## Curso LaserGRBL
+
+- `/lasergrbl/`: **LaserGRBL — Da arte à gravação e ao corte**, 30 aulas em 10 módulos, três projetos, avaliação de 10 questões, progresso, caderno exportável e cinco arquivos de laboratório.
+- Conteúdo em `scripts/lasergrbl_course.py`; gerar aulas e materiais com `python scripts/build_lasergrbl_course.py`. O gerador geral também regenera as aulas, preservando os materiais.
+- Rotas de criação com Inkscape, GIMP, Canva, Illustrator, CorelDRAW, Photoshop e CAD, com limites de SVG e conversões explícitas. Não promete suporte direto a DXF/PDF nem configurações universais de queima.
+- Artes SVG e PNG, ficha CSV e roteiro TXT em `lasergrbl/downloads/`. Nenhum arquivo contém G-code ou parâmetros prontos de emissão.
+- Curso escrito; não inclui videoaulas, certificação de segurança ou controle de equipamento pelo portal. Prática física depende de máquina e material homologados e treinamento do fabricante. Base documental: 29/10/2026.
+- Verificações: `python scripts/check_site.py` e `node scripts/check_lasergrbl.cjs` (Playwright; `TRAINING_URL` indica o servidor local).

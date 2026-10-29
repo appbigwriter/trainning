@@ -1,0 +1,182 @@
+[
+  {
+    "number": 1,
+    "title": "Reconheça riscos antes de ligar o laser",
+    "file": "0001.html",
+    "module": "Segurança e fundamentos"
+  },
+  {
+    "number": 2,
+    "title": "Selecione materiais e verifique a máquina",
+    "file": "0002.html",
+    "module": "Segurança e fundamentos"
+  },
+  {
+    "number": 3,
+    "title": "Entenda desenho, conversão e execução",
+    "file": "0003.html",
+    "module": "Segurança e fundamentos"
+  },
+  {
+    "number": 4,
+    "title": "Instale pelo canal oficial e registre versões",
+    "file": "0004.html",
+    "module": "Instalação e conexão"
+  },
+  {
+    "number": 5,
+    "title": "Conecte pela porta e pelo protocolo corretos",
+    "file": "0005.html",
+    "module": "Instalação e conexão"
+  },
+  {
+    "number": 6,
+    "title": "Conheça a interface e faça o primeiro ensaio",
+    "file": "0006.html",
+    "module": "Instalação e conexão"
+  },
+  {
+    "number": 7,
+    "title": "Leia e preserve os parâmetros GRBL",
+    "file": "0007.html",
+    "module": "Configuração e coordenadas"
+  },
+  {
+    "number": 8,
+    "title": "Diferencie M3, M4 e desligamento",
+    "file": "0008.html",
+    "module": "Configuração e coordenadas"
+  },
+  {
+    "number": 9,
+    "title": "Defina origem, homing e área útil",
+    "file": "0009.html",
+    "module": "Configuração e coordenadas"
+  },
+  {
+    "number": 10,
+    "title": "Escolha formatos importáveis e rotas de conversão",
+    "file": "0010.html",
+    "module": "Formatos e programas de criação"
+  },
+  {
+    "number": 11,
+    "title": "Compare os programas para criar suas artes",
+    "file": "0011.html",
+    "module": "Formatos e programas de criação"
+  },
+  {
+    "number": 12,
+    "title": "Exporte com escala, contraste e direitos conferidos",
+    "file": "0012.html",
+    "module": "Formatos e programas de criação"
+  },
+  {
+    "number": 13,
+    "title": "Crie uma placa dimensionada no Inkscape",
+    "file": "0013.html",
+    "module": "Desenho vetorial no Inkscape"
+  },
+  {
+    "number": 14,
+    "title": "Prepare vetores limpos para contornos e peças",
+    "file": "0014.html",
+    "module": "Desenho vetorial no Inkscape"
+  },
+  {
+    "number": 15,
+    "title": "Resolva SVG de Illustrator, CorelDRAW e CAD",
+    "file": "0015.html",
+    "module": "Desenho vetorial no Inkscape"
+  },
+  {
+    "number": 16,
+    "title": "Prepare fotografias no GIMP ou Photoshop",
+    "file": "0016.html",
+    "module": "Fotografias e edição raster"
+  },
+  {
+    "number": 17,
+    "title": "Relacione pixels, DPI e intervalo de linhas",
+    "file": "0017.html",
+    "module": "Fotografias e edição raster"
+  },
+  {
+    "number": 18,
+    "title": "Escolha tons de cinza, dithering ou vetorização",
+    "file": "0018.html",
+    "module": "Fotografias e edição raster"
+  },
+  {
+    "number": 19,
+    "title": "Importe o raster e controle o resultado",
+    "file": "0019.html",
+    "module": "Importação e gravação"
+  },
+  {
+    "number": 20,
+    "title": "Ajuste potência, velocidade e densidade com método",
+    "file": "0020.html",
+    "module": "Importação e gravação"
+  },
+  {
+    "number": 21,
+    "title": "Enquadre, acompanhe e encerre uma gravação",
+    "file": "0021.html",
+    "module": "Importação e gravação"
+  },
+  {
+    "number": 22,
+    "title": "Prepare operações de gravação e corte separadas",
+    "file": "0022.html",
+    "module": "Corte e testes de materiais"
+  },
+  {
+    "number": 23,
+    "title": "Meça kerf, encaixe e dimensão real",
+    "file": "0023.html",
+    "module": "Corte e testes de materiais"
+  },
+  {
+    "number": 24,
+    "title": "Construa uma biblioteca de testes reproduzível",
+    "file": "0024.html",
+    "module": "Corte e testes de materiais"
+  },
+  {
+    "number": 25,
+    "title": "Projeto 1: produza uma placa legível",
+    "file": "0025.html",
+    "module": "Projetos e produção"
+  },
+  {
+    "number": 26,
+    "title": "Projeto 2: prepare uma fotografia para gravação",
+    "file": "0026.html",
+    "module": "Projetos e produção"
+  },
+  {
+    "number": 27,
+    "title": "Projeto 3: organize uma peça e um pequeno lote",
+    "file": "0027.html",
+    "module": "Projetos e produção"
+  },
+  {
+    "number": 28,
+    "title": "Diagnostique conexão, alarmes e movimento",
+    "file": "0028.html",
+    "module": "Diagnóstico e conclusão"
+  },
+  {
+    "number": 29,
+    "title": "Corrija qualidade e mantenha o equipamento",
+    "file": "0029.html",
+    "module": "Diagnóstico e conclusão"
+  },
+  {
+    "number": 30,
+    "title": "Demonstre competência e entregue seu portfólio",
+    "file": "0030.html",
+    "module": "Diagnóstico e conclusão"
+  }
+]

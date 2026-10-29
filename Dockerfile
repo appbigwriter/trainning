@@ -10,5 +10,7 @@ COPY authority-engine/ /usr/share/nginx/html/authority-engine/
 COPY audience-builder/ /usr/share/nginx/html/audience-builder/
 COPY agency-flux/ /usr/share/nginx/html/agency-flux/
 COPY social-engine/ /usr/share/nginx/html/social-engine/
+COPY habblaud/ /usr/share/nginx/html/habblaud/
+COPY lasergrbl/ /usr/share/nginx/html/lasergrbl/
 EXPOSE 80
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 CMD wget -q -O /dev/null http://127.0.0.1:80/healthz || exit 1

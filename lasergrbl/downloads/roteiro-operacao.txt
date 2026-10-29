@@ -1,0 +1,26 @@
+LASERGRBL — roteiro para adaptar ao manual da sua máquina
+Edição 29/10/2026. Material didático, sem parâmetros universais.
+
+ANTES
+[ ] Operador treinado e manual disponível.
+[ ] Equipamento, fonte, firmware e escala S identificados.
+[ ] Material, revestimento e espessura aprovados para o equipamento.
+[ ] Gabinete, intertravamentos, exaustão e proteção ocular verificados.
+[ ] Base, fixação e foco conforme o fabricante.
+[ ] Origem, dimensão, unidade e trajetória revisadas.
+[ ] Ensaio do envelope com emissão desabilitada e procedimento apropriado.
+[ ] Parâmetros testados, supervisão presencial e emergência conhecidos.
+
+DURANTE
+[ ] Acompanhar continuamente movimento, material, fumaça e ruídos.
+[ ] Interromper conforme o manual diante de anormalidade; investigar antes de retomar.
+[ ] Não mover o material durante pausa nem usar pausa como proteção física.
+
+DEPOIS
+[ ] Confirmar fim da execução e emissão desligada.
+[ ] Cumprir o tempo de extração e a sequência de acesso do fabricante.
+[ ] Inspecionar qualidade e dimensão; registrar rejeições.
+[ ] Guardar arquivos, parâmetros, versão e evidências.
+[ ] Fazer limpeza e manutenção apenas pelo procedimento de isolamento do fabricante.
+
+Este roteiro não substitui o treinamento, a avaliação do ambiente ou o manual.
